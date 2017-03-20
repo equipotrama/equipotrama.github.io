@@ -467,13 +467,7 @@ body {
 .ancla {
   display: block;
   height: 70px;
-  margin-top: -70px;
-  visibility: hidden; }
-
-.sections {
-  background-image: url(/assets/img/bg-home.jpg);
-  background-repeat: repeat;
-  background-content: cover; }
+  margin-top: -70px; }
 
 .contenedor {
   width: 85%;
@@ -576,22 +570,18 @@ body {
       margin-right: auto; }
       .nav-bar .contenedor .menu a {
         font-size: 16px; } }
-<<<<<<< HEAD
 
-.hero #home {
-  margin-top: 20px; }
-=======
->>>>>>> cb83aa6... agrego 'equipo' a menu
-
-.hero .contenedor {
-  margin: 0 auto;
-  text-align: center;
-  padding-bottom: 50px; }
-
-.hero .logo-responsive {
-  margin: 0 auto;
-  max-width: 600px;
-  height: auto; }
+.hero {
+  background: url(/assets/img/bg-home.jpg); }
+  .hero .contenedor {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 160px;
+    padding-bottom: 50px; }
+  .hero .logo-responsive {
+    margin: 0 auto;
+    max-width: 600px;
+    height: auto; }
 
 .about {
   background: url(/assets/img/bg-trama.jpg);
@@ -605,14 +595,13 @@ body {
 @media (max-width: 640px) {
   .hero .contenedor {
     width: 100%;
-    padding-top: 50px;
     min-height: 70vh;
-    overflow: hidden; }
+    overflow: hidden;
+    padding-top: 120px; }
     .hero .contenedor .logo-responsive {
       min-width: 100px;
       max-width: 300px;
-      margin: 0 auto;
-      margin-top: 50px; } }
+      margin: 0 auto; } }
 
 .servicios .contenedor {
   padding: 40px 0;
