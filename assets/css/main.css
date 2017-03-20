@@ -472,11 +472,8 @@ body {
 
 .sections {
   background-image: url(/assets/img/bg-home.jpg);
-  background-repeat: repeat; }
-
-@media (max-width: 640px) {
-  .sections {
-    padding-top: 80px; } }
+  background-repeat: repeat;
+  background-content: cover; }
 
 .contenedor {
   width: 85%;
@@ -579,12 +576,17 @@ body {
       margin-right: auto; }
       .nav-bar .contenedor .menu a {
         font-size: 16px; } }
+<<<<<<< HEAD
+
+.hero #home {
+  margin-top: 20px; }
+=======
+>>>>>>> cb83aa6... agrego 'equipo' a menu
 
 .hero .contenedor {
   margin: 0 auto;
   text-align: center;
-  padding-bottom: 50px;
-  padding-top: 100px; }
+  padding-bottom: 50px; }
 
 .hero .logo-responsive {
   margin: 0 auto;
@@ -592,7 +594,7 @@ body {
   height: auto; }
 
 .about {
-  background: rgba(50, 168, 155, 0.55);
+  background: url(/assets/img/bg-trama.jpg);
   text-align: center;
   font-family: "Sansita", sans-serif;
   line-height: 1.6;
@@ -604,12 +606,13 @@ body {
   .hero .contenedor {
     width: 100%;
     padding-top: 50px;
-    min-height: 60vh;
+    min-height: 70vh;
     overflow: hidden; }
     .hero .contenedor .logo-responsive {
       min-width: 100px;
       max-width: 300px;
-      margin: 0 auto; } }
+      margin: 0 auto;
+      margin-top: 50px; } }
 
 .servicios .contenedor {
   padding: 40px 0;
@@ -649,7 +652,7 @@ body {
     padding: 5px; } }
 
 .equipo {
-  background-color: rgba(100, 0, 160, 0.6);
+  background: url(/assets/img/bg-equipo.jpg);
   padding: 40px 0; }
   .equipo h1 {
     color: white; }
